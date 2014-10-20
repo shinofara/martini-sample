@@ -8,7 +8,9 @@ install:
   - go get -v ./...
   - go get github.com/tools/godep
   - export PATH=$PATH:$HOME/gopath/bin
+
+script:
   - godep get
   - godep save
-script: godep go test -v ./...
+  - godep go test -v ./...
 
