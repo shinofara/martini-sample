@@ -1,7 +1,6 @@
 package main
 
 import (
-	"flag"
 	"github.com/go-martini/martini"
 	"github.com/codegangsta/martini-contrib/render"
 )
