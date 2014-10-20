@@ -6,13 +6,9 @@ go:
 
 install:
   - go get -v ./...
-  - go get github.com/codegangsta/inject
-  - go get github.com/codegangsta/martini
-  - go get github.com/codegangsta/martini-contrib/render
-  - go get github.com/garyburd/redigo/redis
-  - go get github.com/go-martini/martini
-  - go get github.com/onsi/ginkgo/ginkgo
-  - go get github.com/onsi/gomega
+  - go get github.com/tools/godep
   - export PATH=$PATH:$HOME/gopath/bin
+  - godep get
 
-script: go test -v ./...
+script: godep go test -v ./...
+
