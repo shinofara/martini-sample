@@ -1,7 +1,6 @@
 package main
 
 import (
-  "martini/hoge"
 	"github.com/codegangsta/martini-contrib/render"
 )
 
@@ -11,7 +10,7 @@ type AboutViewRender struct {
 
 func AboutRender(r render.Render) {
 	viewModel := AboutViewRender {
-		hoge.Hoge(),
+		"hoe",
 	}
 	r.HTML(200, "about", viewModel)
 }
