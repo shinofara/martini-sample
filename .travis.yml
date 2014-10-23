@@ -14,7 +14,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: d5A5jsrH7kcuahkxkNjcCc2KZfmq1ENTImLji4xo14FiBAahu37rPMLXo2fP+oNWEGdnawbujm+XMZLV2VqvTTdxakodYQC9X3VYznx1r0gXzAMcgAg8yHpxlyrJWhfmJBnPRG7jsPeLgfbjXyrMZHz0F1E7bWhx9EBedVnSmIU=
+    secure: HSFfe9ToHPXWTGFvd3peOQEumEMDpgCad7sxaUBiAqcRcBu69Xn5C/xH2ekafXy/KVnYlrEDP77/jt5tFhlZvCaRe6fDkaa2CqRyXI2i4b8AZz+HEMUmfAATthKSqVgamOy4fF9VfNquZxmihXW1e1YwVju+eL1NL3qw4xZGzxM=
   app: martini-sample
   on:
     repo: shinofara/martini-sample
