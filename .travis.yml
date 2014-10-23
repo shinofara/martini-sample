@@ -1,16 +1,20 @@
 language: go
 go:
-  - 1.3
-  - release
-  - tip
-
+- 1.3
+- release
+- tip
 before_install:
-  - go get -v ./...
-  - go get github.com/tools/godep
-
+- go get -v ./...
+- go get github.com/tools/godep
 script:
-  - godep get
-  - godep save
-  - export PATH=$PATH:$HOME/gopath/bin
-  - godep go test -v ./...
-
+- godep get
+- godep save
+- export PATH=$PATH:$HOME/gopath/bin
+- godep go test -v ./...
+deploy:
+  provider: heroku
+  api_key:
+    secure: d5A5jsrH7kcuahkxkNjcCc2KZfmq1ENTImLji4xo14FiBAahu37rPMLXo2fP+oNWEGdnawbujm+XMZLV2VqvTTdxakodYQC9X3VYznx1r0gXzAMcgAg8yHpxlyrJWhfmJBnPRG7jsPeLgfbjXyrMZHz0F1E7bWhx9EBedVnSmIU=
+  app: martini-sample
+  on:
+    repo: shinofara/martini-sample
