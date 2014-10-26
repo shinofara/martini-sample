@@ -380,3 +380,31 @@ secure:: command not found
 ~/go/src/martini $ /Users/yshinoha/.rbenv/versions/2.1.2/bin/travis encrypt eaa76f06b4a9e7dcf3063a0568bafa2e27baca32 --add deploy.api_key
 ~/go/src/martini $ /Users/yshinoha/.rbenv/versions/2.1.2/bin/travis encrypt eaa76f06b4a9e7dcf3063a0568bafa2e27baca32 --add deploy.api_key
 ~/go/src/martini $ 
+~/go/src/martini $ 
+~/go/src/martini $ git pull origin master
+From github.com:shinofara/martini-sample
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+~/go/src/martini $ ls -la
+total 9565
+-rw-r--r--   1 yshinoha       staff      15261 2014-10-24 05:23 #*eshell*#
+-rw-r--r--   1 yshinoha       staff      14985 2014-10-24 05:22 *eshell*
+drwxr-xr-x  20 yshinoha       staff        680 2014-10-24 05:37 .
+lrwxr-xr-x   1 yshinoha       staff         49 2014-10-24 05:22 .#*eshell* -> yshinoha@SHINOHARAYUKI-no-MacBook-Air.local.13846
+drwxr-xr-x   5 yshinoha       staff        170 2014-10-21 07:17 ..
+drwxr-xr-x  14 yshinoha       staff        476 2014-10-24 05:37 .git
+-rw-r--r--   1 yshinoha       staff         38 2014-10-21 07:47 .gitignore
+-rw-r--r--   1 yshinoha       staff        486 2014-10-24 05:23 .travis.yml
+drwxr-xr-x   5 yshinoha       staff        170 2014-10-22 23:20 Godeps
+-rw-r--r--   1 yshinoha       staff        171 2014-10-21 06:59 README.md
+-rw-r--r--   1 yshinoha       staff        237 2014-10-24 05:04 about.go
+-rw-r--r--   1 yshinoha       staff        241 2014-10-21 04:52 about.go~
+-rwxr-xr-x   1 yshinoha       staff    9754348 2014-10-24 05:05 gin-bin
+drwxr-xr-x   4 yshinoha       staff        136 2014-10-24 05:05 hoge
+-rw-r--r--   1 yshinoha       staff        241 2014-10-21 04:52 index.go
+-rw-r--r--   1 yshinoha       staff        128 2014-10-21 04:52 index.go~
+-rw-r--r--   1 yshinoha       staff       5550 2014-10-21 04:52 index.html
+drwxr-xr-x   6 yshinoha       staff        204 2014-10-21 07:10 sample
+-rw-r--r--   1 yshinoha       staff        419 2014-10-21 07:36 server.go
+drwxr-xr-x   8 yshinoha       staff        272 2014-10-21 04:52 templates
+~/go/src/martini $ 

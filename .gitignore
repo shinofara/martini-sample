@@ -1,4 +1,13 @@
-*~
 Godeps/Readme
 Godeps/_workspace
-.#*
+
+### /Users/hnw/.gitignore-boilerplates/Global/Emacs.gitignore
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
