@@ -17,3 +17,5 @@ deploy:
   app: martini-sample
   on:
     repo: shinofara/martini-sample
+HEROKU_API_KEY=eaa76f06b4a9e7dcf3063a0568bafa2e27baca32:
+  secure: iS/SSCYI//Am1g93l5Kf00q1OPxi6utVPidduGZreA65YKHV9Xa3CfiX+kkmS7lQKSMks4M+vRQ87xkFeYHVWsypVy3PEXxppuQ/+ytHrBNMwrjQtUdyCF7tc7wQiM0vOM9ySYg1IrMtKgwQ7HjqoJ9cZTtYxTrcmxR8p5TqplE=
