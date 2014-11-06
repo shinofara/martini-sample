@@ -5,6 +5,7 @@ go:
 before_install:
 - go get -v ./...
 - go get github.com/tools/godep
+install: make get-deps
 script:
 - godep get
 - export PATH=$PATH:$HOME/gopath/bin
