@@ -11,9 +11,8 @@ script:
 - go install
 deploy:
   provider: heroku
-  strategy: git
   api_key:
-    secure: HSFfe9ToHPXWTGFvd3peOQEumEMDpgCad7sxaUBiAqcRcBu69Xn5C/xH2ekafXy/KVnYlrEDP77/jt5tFhlZvCaRe6fDkaa2CqRyXI2i4b8AZz+HEMUmfAATthKSqVgamOy4fF9VfNquZxmihXW1e1YwVju+eL1NL3qw4xZGzxM=
+    secure: a21CPWi4d47yEqBUjJpPR5u71rN/0+6PkvxZIGm+DDa8ifx04Xi61WCDpyr2xegr6Lg8Q0W0xbVDJh1N+4/JaIT4rYvFbazBDsteXOUhKg/rzTYJyCGJQBioXhpN6JtcZCjzP5MxV2V4oVSrvANa1XUszk8WK3I4Go9W8iDR+gQ=
   app: martini-sample
   on:
     repo: shinofara/martini-sample
