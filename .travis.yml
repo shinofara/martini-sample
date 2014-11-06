@@ -5,10 +5,10 @@ go:
 before_install:
 - go get -v ./...
 - go get github.com/tools/godep
-install: make get-deps
 script:
-- godep get
+- GOPATH=`godep path`:$GOPATH
 - export PATH=$PATH:$HOME/gopath/bin
+- go install
 deploy:
   provider: heroku
   strategy: git
